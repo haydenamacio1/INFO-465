@@ -1,0 +1,4383 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (car_sales)' inline='true' name='federated.0ahi25n1pk7wou1fzmg9e1ns9uoz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='car_sales' name='excel-direct.009me5s16zacka19uxtbh1vyk5rg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/idasc/Downloads/car_sales.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.009me5s16zacka19uxtbh1vyk5rg' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Car_id' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Customer Name' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='real' name='Annual Income' ordinal='4' />
+            <column datatype='string' name='Dealer_Name' ordinal='5' />
+            <column datatype='string' name='Company' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Engine' ordinal='8' />
+            <column datatype='string' name='Transmission' ordinal='9' />
+            <column datatype='string' name='Color' ordinal='10' />
+            <column datatype='integer' name='Price ($)' ordinal='11' />
+            <column datatype='string' name='Dealer_No' ordinal='12' />
+            <column datatype='string' name='Body Style' ordinal='13' />
+            <column datatype='integer' name='Phone' ordinal='14' />
+            <column datatype='string' name='Dealer_Region' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.009me5s16zacka19uxtbh1vyk5rg' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Car_id' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='string' name='Customer Name' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='real' name='Annual Income' ordinal='4' />
+            <column datatype='string' name='Dealer_Name' ordinal='5' />
+            <column datatype='string' name='Company' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Engine' ordinal='8' />
+            <column datatype='string' name='Transmission' ordinal='9' />
+            <column datatype='string' name='Color' ordinal='10' />
+            <column datatype='integer' name='Price ($)' ordinal='11' />
+            <column datatype='string' name='Dealer_No' ordinal='12' />
+            <column datatype='string' name='Body Style' ordinal='13' />
+            <column datatype='integer' name='Phone' ordinal='14' />
+            <column datatype='string' name='Dealer_Region' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P10001:no:A1:P10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Car_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Car_id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Car_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual Income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Annual Income</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Engine]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Engine</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transmission</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Transmission]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Transmission</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Color</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Color]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Color</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price ($)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Price ($)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_No</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_No]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_No</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Body Style</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Body Style]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Body Style</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Phone]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Phone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_Region</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BD1B2CB644F44F7B9553F1206668800B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Car id' datatype='string' name='[Car_id]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Date]' role='dimension' type='nominal' />
+      <column caption='Dealer Name' datatype='string' name='[Dealer_Name]' role='dimension' type='nominal' />
+      <column caption='Dealer No' datatype='string' name='[Dealer_No]' role='dimension' type='nominal' />
+      <column caption='Dealer Region' datatype='string' name='[Dealer_Region]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BD1B2CB644F44F7B9553F1206668800B]' role='measure' type='quantitative' />
+      <column-instance column='[Date]' derivation='Attribute' name='[attr:Date:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+      <group caption='Date Set' name='[Date Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='level-members' level='[none:Date:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:Date:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;1/23/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;1/6/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/16/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/28/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/4/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/18/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/28/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/8/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/19/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/30/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/9/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2/21/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2/7/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/17/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/29/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;4/21/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;4/9/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/14/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/2/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/25/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/18/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/29/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7/12/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7/24/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/18/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/31/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;9/12/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;9/22/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1/16/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1/2/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10/11/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10/23/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/14/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/24/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/3/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/15/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/25/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/4/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2/1/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2/15/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/1/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/13/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/24/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/16/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/28/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/5/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/10/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/21/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/31/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;6/13/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;6/25/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7/19/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7/8/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/1/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/13/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/27/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/18/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/29/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/7/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1/21/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1/4/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/14/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/2/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/25/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/16/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/26/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/6/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/17/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/27/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/6/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2/18/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/15/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/27/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/18/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/30/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/7/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;5/12/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;5/23/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/15/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/27/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/4/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7/10/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7/22/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/16/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/29/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;9/10/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;9/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1/26/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1/9/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/18/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/30/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/7/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/10/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/20/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/30/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;12/11/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;12/21/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2/23/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2/9/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/31/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/8/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4/12/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4/23/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/16/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/27/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/5/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;6/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;6/9/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/15/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/2/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/27/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;8/21/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;8/8/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/14/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/25/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/3/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1/24/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1/7/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/17/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/28/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/4/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/19/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/29/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/8/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/19/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/30/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/9/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2/21/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2/7/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/18/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/29/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;4/10/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;4/21/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/15/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/25/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/3/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/18/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/30/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7/13/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7/25/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;8/19/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;8/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/1/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/12/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/23/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1/21/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1/4/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/15/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/2/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/25/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/16/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/27/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/6/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/17/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/28/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/7/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2/19/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2/5/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/15/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/27/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/5/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;4/19/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;4/7/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/1/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/12/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/23/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/16/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/28/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/4/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7/10/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7/23/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/16/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/29/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/5/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;9/10/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;9/20/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1/14/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1/31/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;10/10/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;10/22/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/13/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/2/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/23/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/14/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/24/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/3/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;2/14/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;2/28/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;3/12/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;3/23/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/15/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/26/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/4/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/20/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/30/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/9/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;6/12/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;6/23/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/18/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/31/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/6/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8/12/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8/25/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/17/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/28/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/6/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1/17/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1/2/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;10/12/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;10/23/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/14/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/25/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/4/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/15/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/26/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/5/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2/15/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2/2/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/1/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/13/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/25/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/17/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/28/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/5/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;5/10/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;5/21/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/1/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/14/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/25/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7/20/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7/8/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/14/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/2/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/27/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/18/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/30/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/8/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;1/12/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;1/30/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;10/20/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;10/9/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/1/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/12/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/22/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/13/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/2/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/23/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2/12/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2/27/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;3/10/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;3/22/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/14/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/2/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/25/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/18/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/29/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/8/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;6/11/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;6/22/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/17/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/30/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/4/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;8/11/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;8/23/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/16/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/27/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1/22/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/15/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/26/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/3/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/17/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/27/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/7/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/18/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/29/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/8/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2/20/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2/6/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/16/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/28/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/5/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;4/19/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;4/8/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/1/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/13/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/24/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/16/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/28/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7/11/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7/23/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/17/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/30/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/5/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9/11/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9/21/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1/10/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1/27/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/19/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/30/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/8/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;11/10/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;11/21/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/1/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/11/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/22/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2/23/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2/9/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/20/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/31/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/9/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;4/12/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;4/24/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/17/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/28/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/6/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;6/20/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;6/9/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/16/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/28/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/3/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;8/22/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;8/9/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/14/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/25/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/3/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1/10/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1/28/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/19/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/31/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/8/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;11/11/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;11/21/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/1/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/12/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/22/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2/10/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2/25/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;3/21/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;3/9/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/1/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/13/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/24/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/17/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/28/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/7/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;6/10/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;6/21/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/16/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/29/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/3/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;8/22/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;8/9/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/15/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/26/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/4/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;1/13/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;1/30/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;10/10/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;10/21/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/1/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/12/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/23/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/13/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/24/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/3/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2/13/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2/27/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3/11/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3/22/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/14/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/26/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/3/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/19/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/30/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/8/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;6/12/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;6/23/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/18/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/31/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/5/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8/11/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8/24/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/16/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/27/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/5/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;1/15/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;1/31/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;10/11/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;10/22/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/13/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/24/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/3/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/14/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/25/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/4/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2/14/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2/28/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;3/12/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;3/24/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/16/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/27/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/4/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/20/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/31/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/9/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;6/13/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;6/24/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;7/19/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;7/7/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/1/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/13/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/26/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/17/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/28/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/6/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1/24/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1/8/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/17/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/29/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/5/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/19/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/29/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/9/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/10/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/20/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/31/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2/22/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2/8/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/19/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/30/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4/10/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4/22/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/15/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/26/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/3/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;6/19/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;6/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/1/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/14/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/25/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;8/20/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;8/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/1/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/13/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/24/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1/23/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1/5/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/16/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/27/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/3/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/28/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/7/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/18/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/29/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/8/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2/20/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2/6/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/17/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/28/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/6/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;4/20/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;4/9/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/14/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/2/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/24/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/29/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/5/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7/12/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7/24/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/31/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/6/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;9/11/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;9/22/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1/17/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1/3/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/1/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/13/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/24/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/15/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/25/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/5/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/16/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/26/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/5/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2/16/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2/3/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/14/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/2/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/26/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/17/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/29/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/6/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5/11/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5/22/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/14/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/2/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/26/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7/20/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7/9/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/15/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/2/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/28/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;9/19/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;9/8/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;1/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;1/28/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/20/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/31/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/9/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;11/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;11/22/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/12/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/2/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/23/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2/25/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;3/10/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;3/21/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/13/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/2/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/25/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/18/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/29/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/7/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6/11/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6/21/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/17/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/30/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/4/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;8/10/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;8/23/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/15/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/26/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/4/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;1/25/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;1/9/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/18/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/29/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/6/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/20/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/30/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/9/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/10/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/20/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/31/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2/22/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2/8/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/19/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/30/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;4/11/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;4/22/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/16/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/26/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/4/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;6/19/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;6/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/14/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/2/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/26/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;8/21/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;8/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/13/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/2/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/24/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1/19/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/1/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/13/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/24/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/15/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/26/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/5/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/16/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/27/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/6/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2/16/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/14/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/26/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/18/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/30/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/6/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;5/11/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;5/22/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/15/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/26/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7/21/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7/9/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/15/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/28/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;9/19/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;9/9/2023&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Date:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;1/23/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;1/6/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/16/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/28/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;10/4/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/18/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/28/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11/8/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/19/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/30/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;12/9/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2/21/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2/7/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/17/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/29/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;4/21/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;4/9/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/14/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/2/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5/25/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/18/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/29/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;6/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7/12/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7/24/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/18/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/31/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;8/6/2023&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;9/12/2022&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;9/22/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1/16/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1/2/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10/11/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10/23/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/14/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/24/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11/3/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/15/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/25/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12/4/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2/1/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2/15/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/1/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/13/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3/24/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/16/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/28/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4/5/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/10/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/21/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;5/31/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;6/13/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;6/25/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7/19/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7/8/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/1/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/13/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8/27/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/18/2022&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/29/2023&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9/7/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1/21/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1/4/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/14/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/2/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10/25/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/16/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/26/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;11/6/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/17/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/27/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;12/6/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2/18/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/15/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/27/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/18/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/30/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4/7/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;5/12/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;5/23/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/15/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/27/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6/4/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7/10/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7/22/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/16/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/29/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;8/4/2023&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;9/10/2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;9/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1/26/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;1/9/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/18/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/30/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;10/7/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/10/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/20/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;11/30/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;12/11/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;12/21/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2/23/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2/9/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/31/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;3/8/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4/12/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4/23/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/16/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/27/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5/5/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;6/20/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;6/9/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/15/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/2/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7/27/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;8/21/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;8/8/2023&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/14/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/25/2022&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;9/3/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1/24/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1/7/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/17/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/28/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10/4/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/19/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/29/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;11/8/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/19/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/30/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12/9/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2/21/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2/7/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/18/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/29/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;3/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;4/10/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;4/21/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/15/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/25/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5/3/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/18/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/30/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;6/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7/13/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7/25/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;8/19/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;8/7/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/1/2022&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/12/2023&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;9/23/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1/21/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1/4/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/15/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/2/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;10/25/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/16/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/27/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;11/6/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/17/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/28/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;12/7/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2/19/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2/5/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/15/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/27/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3/5/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;4/19/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;4/7/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/1/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/12/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5/23/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/16/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/28/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6/4/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7/10/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7/23/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/16/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/29/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8/5/2022&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;9/10/2023&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;9/20/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1/14/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1/31/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;10/10/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;10/22/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/13/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/2/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;11/23/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/14/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/24/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;12/3/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;2/14/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;2/28/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;3/12/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;3/23/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/15/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/26/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4/4/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/20/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/30/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;5/9/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;6/12/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;6/23/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/18/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/31/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7/6/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8/12/2023&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8/25/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/17/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/28/2022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;9/6/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1/17/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1/2/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;10/12/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;10/23/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/14/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/25/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;11/4/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/15/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/26/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12/5/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2/15/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2/2/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/1/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/13/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3/25/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/17/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/28/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4/5/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;5/10/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;5/21/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/1/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/14/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6/25/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7/20/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7/8/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/14/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/2/2022&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;8/27/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/18/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/30/2023&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9/8/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;1/12/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;1/30/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;10/20/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;10/9/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/1/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/12/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;11/22/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/13/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/2/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;12/23/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2/12/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2/27/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;3/10/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;3/22/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/14/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/2/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;4/25/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/18/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/29/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5/8/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;6/11/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;6/22/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/17/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/30/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7/4/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;8/11/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;8/23/2023&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/16/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/27/2022&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;9/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1/22/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/15/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/26/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;10/3/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/17/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/27/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;11/7/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/18/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/29/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;12/8/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2/20/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2/6/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/16/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/28/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3/5/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;4/19/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;4/8/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/1/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/13/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5/24/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/16/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/28/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;6/5/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7/11/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7/23/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/17/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/30/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;8/5/2023&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9/11/2022&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9/21/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1/10/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;1/27/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/19/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/30/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;10/8/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;11/10/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;11/21/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/1/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/11/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;12/22/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2/23/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2/9/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/20/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/31/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3/9/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;4/12/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;4/24/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/17/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/28/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5/6/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;6/20/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;6/9/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/16/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/28/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7/3/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;8/22/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;8/9/2022&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/14/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/25/2023&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;9/3/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1/10/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;1/28/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/19/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/31/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;10/8/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;11/11/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;11/21/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/1/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/12/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;12/22/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2/10/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2/25/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;3/21/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;3/9/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/1/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/13/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4/24/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/17/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/28/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5/7/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;6/10/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;6/21/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/16/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/29/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7/3/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;8/22/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;8/9/2023&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/15/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/26/2022&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;9/4/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;1/13/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;1/30/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;10/10/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;10/21/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/1/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/12/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;11/23/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/13/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/24/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;12/3/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2/13/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2/27/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3/11/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3/22/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/14/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/26/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;4/3/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/19/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/30/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;5/8/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;6/12/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;6/23/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/18/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/31/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7/5/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8/11/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8/24/2022&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/16/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/27/2023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;9/5/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;1/15/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;1/31/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;10/11/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;10/22/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/13/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/24/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;11/3/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/14/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/25/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;12/4/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2/14/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2/28/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;3/12/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;3/24/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/16/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/27/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4/4/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/20/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/31/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;5/9/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;6/13/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;6/24/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;7/19/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;7/7/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/1/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/13/2022&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8/26/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/17/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/28/2023&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;9/6/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1/24/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1/8/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/17/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/29/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10/5/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/19/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/29/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11/9/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/10/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/20/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;12/31/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2/22/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2/8/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/19/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/30/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4/10/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4/22/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/15/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/26/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5/3/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;6/19/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;6/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/1/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/14/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7/25/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;8/20/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;8/7/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/1/2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/13/2022&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;9/24/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1/23/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1/5/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/16/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/27/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10/3/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/28/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;11/7/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/18/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/29/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;12/8/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2/20/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2/6/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/17/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/28/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3/6/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;4/20/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;4/9/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/14/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/2/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5/24/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/29/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;6/5/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7/12/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7/24/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/17/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/31/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;8/6/2022&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;9/11/2023&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;9/22/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1/17/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1/3/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/1/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/13/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10/24/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/15/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/25/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11/5/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/16/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/26/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;12/5/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2/16/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2/3/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/14/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/2/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3/26/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/17/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/29/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4/6/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5/11/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5/22/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/14/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/2/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6/26/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7/20/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7/9/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/15/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/2/2023&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;8/28/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;9/19/2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;9/8/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;1/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;1/28/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/20/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/31/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;10/9/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;11/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;11/22/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/12/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/2/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;12/23/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2/11/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2/25/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;3/10/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;3/21/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/13/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/2/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;4/25/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/18/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/29/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5/7/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6/11/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;6/21/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/17/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/30/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7/4/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;8/10/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;8/23/2022&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/15/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/26/2023&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;9/4/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;1/25/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;1/9/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/18/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/29/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;10/6/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/20/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/30/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11/9/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/10/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/20/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12/31/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2/22/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2/8/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/19/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/30/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;3/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;4/11/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;4/22/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/16/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/26/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5/4/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;6/19/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;6/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/14/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/2/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7/26/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;8/21/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;8/8/2022&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/13/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/2/2023&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;9/24/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1/19/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/1/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/13/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;10/24/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/15/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/26/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;11/5/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/16/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/27/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;12/6/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2/16/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/14/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/26/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/18/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/30/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4/6/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;5/11/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;5/22/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/15/2022&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/26/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7/21/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7/9/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/15/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/28/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8/3/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;9/19/2023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;9/9/2023&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_BD1B2CB644F44F7B9553F1206668800B'>
+            <properties context=''>
+              <relation connection='excel-direct.009me5s16zacka19uxtbh1vyk5rg' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Car_id' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='string' name='Customer Name' ordinal='2' />
+                  <column datatype='string' name='Gender' ordinal='3' />
+                  <column datatype='real' name='Annual Income' ordinal='4' />
+                  <column datatype='string' name='Dealer_Name' ordinal='5' />
+                  <column datatype='string' name='Company' ordinal='6' />
+                  <column datatype='string' name='Model' ordinal='7' />
+                  <column datatype='string' name='Engine' ordinal='8' />
+                  <column datatype='string' name='Transmission' ordinal='9' />
+                  <column datatype='string' name='Color' ordinal='10' />
+                  <column datatype='integer' name='Price ($)' ordinal='11' />
+                  <column datatype='string' name='Dealer_No' ordinal='12' />
+                  <column datatype='string' name='Body Style' ordinal='13' />
+                  <column datatype='integer' name='Phone' ordinal='14' />
+                  <column datatype='string' name='Dealer_Region' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>User Story 1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (car_sales)' name='federated.0ahi25n1pk7wou1fzmg9e1ns9uoz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ahi25n1pk7wou1fzmg9e1ns9uoz'>
+            <column datatype='string' name='[Body Style]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Price ($)]' role='measure' type='quantitative' />
+            <column-instance column='[Body Style]' derivation='None' name='[none:Body Style:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price ($)]' derivation='Sum' name='[sum:Price ($):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Date:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[sum:Price ($):qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[sum:Price ($):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Body Style:nk] / ([federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Model:nk] / [federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Date:nk]))</rows>
+        <cols>[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[sum:Price ($):qk]</cols>
+      </table>
+      <simple-id uuid='{392DC879-F0DF-4BC6-9692-93281ED33627}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[io:Date Set:nk]</field>
+            <field>[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Body Style:nk]</field>
+            <field>[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Date:nk]</field>
+            <field>[federated.0ahi25n1pk7wou1fzmg9e1ns9uoz].[none:Model:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F22184A2-47F0-4C6C-8700-2400E851B65F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      bjSeAXjcaP5/51Y7GJZ79b8AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
